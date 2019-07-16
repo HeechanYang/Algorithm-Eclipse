@@ -42,11 +42,7 @@ public class BinarySearchTree {
 	public boolean isEmpty() {
 		return size == 0;
 	}
-
-	public boolean has(int num) {
-		return getNode(num) != null;
-	}
-
+	
 	public Node getNode(int num) {
 		Node node = this.root;
 		while (node != null && node.data != num) {
@@ -85,11 +81,7 @@ public class BinarySearchTree {
 		bst.add(7);
 		bst.add(3);
 		
-		System.out.println("bst.has(3) : " + bst.has(3));
-		System.out.println("bst.has(11) : " + bst.has(11));
-		System.out.println("bst.has(7) : " + bst.has(7));
-		System.out.println("bst.has(5) : " + bst.has(5));
-
+		System.out.println(bst.getNode(3).data);
 //		bst.add(3);
 	}
 }

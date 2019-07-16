@@ -85,10 +85,9 @@ public class BinarySearchTree {
 		bst.add(7);
 		bst.add(3);
 		
-		System.out.println("bst.has(3) : " + bst.has(3));
-		System.out.println("bst.has(11) : " + bst.has(11));
-		System.out.println("bst.has(7) : " + bst.has(7));
-		System.out.println("bst.has(5) : " + bst.has(5));
+		System.out.println("bst.getNode(3) : " + bst.getNode(3));
+		System.out.println("bst.getNode(11) : " + bst.getNode(11));
+		System.out.println("bst.getNode(5) : " + bst.getNode(5));
 
 //		bst.add(3);
 	}
