@@ -82,7 +82,5 @@ public class Stack {
 		System.out.printf("size: %d, stack.pop() : %d\n", stack.size(), stack.pop());
 		System.out.printf("size: %d, stack.pop() : %d\n", stack.size(), stack.pop());
 		System.out.printf("size: %d, stack.pop() : %d\n", stack.size(), stack.pop());
-		System.out.printf("size: %d, stack.pop() : %d\n", stack.size(), stack.pop());
-		System.out.printf("size: %d, stack.pop() : %d\n", stack.size(), stack.pop());
 	}
 }
