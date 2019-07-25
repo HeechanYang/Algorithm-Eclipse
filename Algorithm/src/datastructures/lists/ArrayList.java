@@ -60,7 +60,10 @@ public class ArrayList<T> {
 
 	// just for test
 	public void print() {
-		System.out.println(Arrays.toString(this.arr));
+		for(int i=0;i<size;i++) {
+			System.out.print(this.arr[i] + " ");
+		}
+		System.out.println();
 	}
 
 	public static void main(String[] args) {
